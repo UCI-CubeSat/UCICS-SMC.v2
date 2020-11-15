@@ -9382,22 +9382,22 @@ Source: http://www.molex.com</description>
 <part name="S258" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="C256" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 <part name="S259" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C257" library="standardparts" deviceset="CAPACITOR" device=".0603" value="15pF"/>
-<part name="L14" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="7.5nH"/>
-<part name="C258" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1pF"/>
-<part name="L15" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="18nH"/>
-<part name="C259" library="standardparts" deviceset="CAPACITOR" device=".0603" value="2.2pF"/>
-<part name="L16" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="L17" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C260" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L18" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="15nH"/>
-<part name="C261" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L19" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
+<part name="C257" library="standardparts" deviceset="CAPACITOR" device=".0402" value="15pF"/>
+<part name="L14" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="7.5nH"/>
+<part name="C258" library="standardparts" deviceset="CAPACITOR" device=".0402" value="1pF"/>
+<part name="L15" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="18nH"/>
+<part name="C259" library="standardparts" deviceset="CAPACITOR" device=".0402" value="2.2pF"/>
+<part name="L16" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="L17" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C260" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L18" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="15nH"/>
+<part name="C261" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L19" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
 <part name="S260" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C262" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3pF"/>
+<part name="C262" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3pF"/>
 <part name="S261" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="L20" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C263" library="standardparts" deviceset="CAPACITOR" device=".0603" value="DNI"/>
+<part name="L20" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C263" library="standardparts" deviceset="CAPACITOR" device=".0402" value="DNI"/>
 <part name="U24" library="Module_ICs" deviceset="KIOXIA_AMERICA-NAND_FLASH-TC58CVG0S3HRAIG" device="" package3d_urn="urn:adsk.eagle:package:14910091/1"/>
 <part name="S262" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="S263" library="Module_Supplies" deviceset="VCC_3V3_IO" device=""/>

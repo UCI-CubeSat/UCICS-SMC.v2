@@ -8829,7 +8829,7 @@ Source: http://www.molex.com</description>
 <part name="C20" library="standardparts" deviceset="CAPACITOR" device=".0402" value="15pF"/>
 <part name="L1" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="7.5nH"/>
 <part name="C21" library="standardparts" deviceset="CAPACITOR" device=".0402" value="1pF"/>
-<part name="L2" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="18nH"/>
+<part name="L2" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="18nH"/>
 <part name="C22" library="standardparts" deviceset="CAPACITOR" device=".0402" value="2.2pF"/>
 <part name="L3" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
 <part name="L4" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
@@ -9445,7 +9445,7 @@ Source: http://www.molex.com</description>
 <wire x1="27.94" y1="-162.56" x2="27.94" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="-40.64" x2="-243.84" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="-243.84" y1="-40.64" x2="-243.84" y2="-162.56" width="0.1524" layer="97"/>
-<text x="-203.2" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
+<text x="-200.66" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
 <wire x1="-345.44" y1="-353.06" x2="-345.44" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-345.44" y1="-469.9" x2="-167.64" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-167.64" y1="-469.9" x2="-167.64" y2="-353.06" width="0.1524" layer="97"/>

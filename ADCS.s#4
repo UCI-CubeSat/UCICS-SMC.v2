@@ -9445,7 +9445,7 @@ Source: http://www.molex.com</description>
 <wire x1="27.94" y1="-162.56" x2="27.94" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="-40.64" x2="-243.84" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="-243.84" y1="-40.64" x2="-243.84" y2="-162.56" width="0.1524" layer="97"/>
-<text x="-203.2" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
+<text x="-200.66" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
 <wire x1="-345.44" y1="-353.06" x2="-345.44" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-345.44" y1="-469.9" x2="-167.64" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-167.64" y1="-469.9" x2="-167.64" y2="-353.06" width="0.1524" layer="97"/>
@@ -14436,8 +14436,8 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I/O/GCK2"/>
 <wire x1="-10.16" y1="40.64" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="43.18" x2="-83.82" y2="43.18" width="0.1524" layer="91"/>
-<label x="-83.82" y="43.18" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="43.18" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="-96.52" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COMMS1_NMI" class="0">
