@@ -8826,22 +8826,22 @@ Source: http://www.molex.com</description>
 <part name="S44" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="C19" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 <part name="S45" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C20" library="standardparts" deviceset="CAPACITOR" device=".0603" value="15pF"/>
-<part name="L1" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="7.5nH"/>
-<part name="C21" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1pF"/>
-<part name="L2" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="18nH"/>
-<part name="C22" library="standardparts" deviceset="CAPACITOR" device=".0603" value="2.2pF"/>
-<part name="L3" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="L4" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C23" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L5" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="15nH"/>
-<part name="C24" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L6" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
+<part name="C20" library="standardparts" deviceset="CAPACITOR" device=".0402" value="15pF"/>
+<part name="L1" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="7.5nH"/>
+<part name="C21" library="standardparts" deviceset="CAPACITOR" device=".0402" value="1pF"/>
+<part name="L2" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="18nH"/>
+<part name="C22" library="standardparts" deviceset="CAPACITOR" device=".0402" value="2.2pF"/>
+<part name="L3" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="L4" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C23" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L5" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="15nH"/>
+<part name="C24" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L6" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
 <part name="S4" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C25" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3pF"/>
+<part name="C25" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3pF"/>
 <part name="S5" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="L7" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C26" library="standardparts" deviceset="CAPACITOR" device=".0603" value="DNI"/>
+<part name="L7" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C26" library="standardparts" deviceset="CAPACITOR" device=".0402" value="DNI"/>
 <part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMA-V" device="" package3d_urn="urn:adsk.eagle:package:6211/1"/>
 <part name="S13" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="U2" library="Module_ICs" deviceset="TEXAS_INSTRUMENTS-MICROCONTROLLER-TMS320F28386DZWTQ" device="" value="Value"/>
@@ -9445,7 +9445,7 @@ Source: http://www.molex.com</description>
 <wire x1="27.94" y1="-162.56" x2="27.94" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="-40.64" x2="-243.84" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="-243.84" y1="-40.64" x2="-243.84" y2="-162.56" width="0.1524" layer="97"/>
-<text x="-203.2" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
+<text x="-200.66" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
 <wire x1="-345.44" y1="-353.06" x2="-345.44" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-345.44" y1="-469.9" x2="-167.64" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-167.64" y1="-469.9" x2="-167.64" y2="-353.06" width="0.1524" layer="97"/>
@@ -13983,10 +13983,10 @@ Source: http://www.molex.com</description>
 <wire x1="-91.44" y1="-45.72" x2="-91.44" y2="-91.44" width="0.1524" layer="97"/>
 <text x="-76.2" y="-43.18" size="1.778" layer="97" rot="R180">JTAG interface</text>
 <wire x1="-40.64" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="97"/>
-<wire x1="-73.66" y1="45.72" x2="-73.66" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="-73.66" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="-40.64" y1="73.66" x2="-40.64" y2="45.72" width="0.1524" layer="97"/>
-<text x="-53.34" y="76.2" size="1.778" layer="97" rot="R180">External interfacing</text>
+<wire x1="-73.66" y1="45.72" x2="-73.66" y2="71.12" width="0.1524" layer="97"/>
+<wire x1="-73.66" y1="71.12" x2="-40.64" y2="71.12" width="0.1524" layer="97"/>
+<wire x1="-40.64" y1="71.12" x2="-40.64" y2="45.72" width="0.1524" layer="97"/>
+<text x="-53.34" y="73.66" size="1.778" layer="97" rot="R180">External interfacing</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-22.86" y="12.7" smashed="yes">
@@ -14436,8 +14436,8 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I/O/GCK2"/>
 <wire x1="-10.16" y1="40.64" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="43.18" x2="-83.82" y2="43.18" width="0.1524" layer="91"/>
-<label x="-83.82" y="43.18" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="43.18" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="-96.52" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COMMS1_NMI" class="0">

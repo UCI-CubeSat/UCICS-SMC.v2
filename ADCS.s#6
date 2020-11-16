@@ -9302,8 +9302,8 @@ Source: http://www.molex.com</description>
 <part name="L13" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="10nH"/>
 <part name="R80" library="standardparts" deviceset="RESISTOR" device=".0402" value="10R"/>
 <part name="C232" library="standardparts" deviceset="CAPACITOR" device=".0402" value="33pF"/>
-<part name="C233" library="standardparts" deviceset="CAPACITOR" device=".0402" value="10nF"/>
-<part name="C234" library="standardparts" deviceset="CAPACITOR" device=".0402" value="100pF"/>
+<part name="C233" library="standardparts" deviceset="CAPACITOR" device=".0603" value="10nF"/>
+<part name="C234" library="standardparts" deviceset="CAPACITOR" device=".0603" value="100pF"/>
 <part name="U20" library="Module_ICs" deviceset="TEXAS_INSTRUMENTS-RADAR-CC1200RHBR" device="" value="Value"/>
 <part name="X7" library="Module_ICs" deviceset="ECS_INC-OSCILLATOR-ECS-400-10-37-CKM-TR" device="" package3d_urn="urn:adsk.eagle:package:14925163/1"/>
 <part name="S218" library="Module_Supplies" deviceset="VSS" device=""/>
@@ -9382,22 +9382,22 @@ Source: http://www.molex.com</description>
 <part name="S258" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="C256" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 <part name="S259" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C257" library="standardparts" deviceset="CAPACITOR" device=".0603" value="15pF"/>
-<part name="L14" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="7.5nH"/>
-<part name="C258" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1pF"/>
-<part name="L15" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="18nH"/>
-<part name="C259" library="standardparts" deviceset="CAPACITOR" device=".0603" value="2.2pF"/>
-<part name="L16" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="L17" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C260" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L18" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="15nH"/>
-<part name="C261" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3.3pF"/>
-<part name="L19" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
+<part name="C257" library="standardparts" deviceset="CAPACITOR" device=".0402" value="15pF"/>
+<part name="L14" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="7.5nH"/>
+<part name="C258" library="standardparts" deviceset="CAPACITOR" device=".0402" value="1pF"/>
+<part name="L15" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="18nH"/>
+<part name="C259" library="standardparts" deviceset="CAPACITOR" device=".0402" value="2.2pF"/>
+<part name="L16" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="L17" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C260" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L18" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="15nH"/>
+<part name="C261" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3.3pF"/>
+<part name="L19" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
 <part name="S260" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="C262" library="standardparts" deviceset="CAPACITOR" device=".0603" value="3pF"/>
+<part name="C262" library="standardparts" deviceset="CAPACITOR" device=".0402" value="3pF"/>
 <part name="S261" library="Module_Supplies" deviceset="VSS" device=""/>
-<part name="L20" library="standardparts" deviceset="RF-INDUCTOR" device=".0603" value="12nH"/>
-<part name="C263" library="standardparts" deviceset="CAPACITOR" device=".0603" value="DNI"/>
+<part name="L20" library="standardparts" deviceset="RF-INDUCTOR" device=".0402" value="12nH"/>
+<part name="C263" library="standardparts" deviceset="CAPACITOR" device=".0402" value="DNI"/>
 <part name="U24" library="Module_ICs" deviceset="KIOXIA_AMERICA-NAND_FLASH-TC58CVG0S3HRAIG" device="" package3d_urn="urn:adsk.eagle:package:14910091/1"/>
 <part name="S262" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="S263" library="Module_Supplies" deviceset="VCC_3V3_IO" device=""/>
@@ -9445,7 +9445,7 @@ Source: http://www.molex.com</description>
 <wire x1="27.94" y1="-162.56" x2="27.94" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="-40.64" x2="-243.84" y2="-40.64" width="0.1524" layer="97"/>
 <wire x1="-243.84" y1="-40.64" x2="-243.84" y2="-162.56" width="0.1524" layer="97"/>
-<text x="-203.2" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
+<text x="-200.66" y="-38.1" size="1.778" layer="97" rot="R180">ADC block (sun sensor and auxiliary)</text>
 <wire x1="-345.44" y1="-353.06" x2="-345.44" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-345.44" y1="-469.9" x2="-167.64" y2="-469.9" width="0.1524" layer="97"/>
 <wire x1="-167.64" y1="-469.9" x2="-167.64" y2="-353.06" width="0.1524" layer="97"/>
@@ -13983,10 +13983,10 @@ Source: http://www.molex.com</description>
 <wire x1="-91.44" y1="-45.72" x2="-91.44" y2="-91.44" width="0.1524" layer="97"/>
 <text x="-76.2" y="-43.18" size="1.778" layer="97" rot="R180">JTAG interface</text>
 <wire x1="-40.64" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="97"/>
-<wire x1="-73.66" y1="45.72" x2="-73.66" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="-73.66" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="-40.64" y1="73.66" x2="-40.64" y2="45.72" width="0.1524" layer="97"/>
-<text x="-53.34" y="76.2" size="1.778" layer="97" rot="R180">External interfacing</text>
+<wire x1="-73.66" y1="45.72" x2="-73.66" y2="71.12" width="0.1524" layer="97"/>
+<wire x1="-73.66" y1="71.12" x2="-40.64" y2="71.12" width="0.1524" layer="97"/>
+<wire x1="-40.64" y1="71.12" x2="-40.64" y2="45.72" width="0.1524" layer="97"/>
+<text x="-53.34" y="73.66" size="1.778" layer="97" rot="R180">External interfacing</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-22.86" y="12.7" smashed="yes">
@@ -14436,8 +14436,8 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I/O/GCK2"/>
 <wire x1="-10.16" y1="40.64" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="43.18" x2="-83.82" y2="43.18" width="0.1524" layer="91"/>
-<label x="-83.82" y="43.18" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="43.18" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="-96.52" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COMMS1_NMI" class="0">
@@ -15145,8 +15145,8 @@ Source: http://www.molex.com</description>
 <instance part="S7" gate="G$1" x="-109.22" y="20.32" smashed="yes">
 <attribute name="VALUE" x="-111.76" y="17.78" size="0.8128" layer="95"/>
 </instance>
-<instance part="S8" gate="G$1" x="-38.1" y="17.78" smashed="yes">
-<attribute name="VALUE" x="-40.386" y="21.082" size="0.8128" layer="95"/>
+<instance part="S8" gate="G$1" x="-38.1" y="15.24" smashed="yes">
+<attribute name="VALUE" x="-40.386" y="18.542" size="0.8128" layer="95"/>
 </instance>
 <instance part="S9" gate="G$1" x="-55.88" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-17.78" size="0.8128" layer="95"/>
@@ -15929,7 +15929,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="S8" gate="G$1" pin="VCC_3V3_IO"/>
-<wire x1="-38.1" y1="17.78" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="15.24" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-30.48" y1="-17.78" x2="-33.02" y2="-17.78" width="0.1524" layer="91"/>
