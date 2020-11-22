@@ -8,7 +8,7 @@ Verification and finalization pending.
 
 Features:
 - STM32F412ZG microcontroller for SMC
-- 2 STM32L431RCY6TR microcontrollers for communications controllers
+- 2 STM32L431RCT6 microcontrollers for communications controllers
 - RF MUX and CPLD switching logic for communications failover
 - AX5043 communications transceiver over SPI bus
 - TCAN1042 CAN transceiver
